@@ -1,0 +1,105 @@
+﻿ul {
+    list-style-type: none; /* List styling. lightblue is used to blend list into the background */
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;  
+    margin-bottom: 20px;
+}
+
+li {
+    float: left;
+}
+
+li a { 
+    display: block;
+    color: darkblue;
+    text-align:center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+    li a:hover {
+        background-color: darkgreen;
+        color: black;
+    }
+
+body {
+    font-family: Arial, sans-serif;
+    background: lightblue url(GoodGums-images/GoodGums-logo-sm.png) no-repeat 60px 60px;
+    border: ridge 2px darkblue;
+    margin: 5px auto;
+    width: auto;
+    margin-bottom: 100px
+ 
+}
+
+h1 {
+    color: forestgreen; /* all headers use same font color and allignment */
+    text-align: center;
+    font-family: Arial
+}
+h3 {
+    color: forestgreen;
+    text-align: center;
+    font-family: Arial
+}
+#Orders {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial;
+    font-size: large;
+}
+
+div.container { /* styling used on most pages*/
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 3px;
+}
+
+.textbox {
+    width: 20px;
+}
+.textMargin {
+    padding: 5px;
+    margin: 3px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.webformtextMargin {
+    padding: 5px;
+    margin-left: 20px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+div.Chart {
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+}
+
+form.AddForm {
+    margin: auto;
+    width: 30%;
+    
+    padding: 10px;
+}
+
+fieldset.ff{
+    margin-top:165px;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}
+.margin {
+    margin: 5px;
+}
+
+.labelWidth {
+    display: inline-block;
+    width: 130px;
+}
